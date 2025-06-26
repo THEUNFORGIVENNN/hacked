@@ -1,2 +1,1 @@
-# hacked
-boomm xss you were hacked
+cuma raw github buat testing kok
